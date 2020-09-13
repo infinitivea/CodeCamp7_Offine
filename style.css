@@ -1,0 +1,78 @@
+/* เขียน CSS ที่นี่ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.flex-header {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  background-color: darkcyan;
+}
+
+/* Body */
+.flex-body {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  background-color: #ff7f50;
+}
+
+/* Body - Navigation section */
+.flex-navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 300px;
+  border: solid 1px white;
+}
+
+.flex-navigation-menu-list {
+  width: 100%;
+}
+
+.flex-navigation-menu-item {
+  list-style-type: none;
+  background-color: white;
+  margin: 10px 0;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Body - Content section */
+.flex-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 2;
+  border: solid 1px white;
+}
+
+/* Body - Ads section */
+.flex-ads {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 300px;
+  padding: 10px;
+  border: solid 1px white;
+}
+
+/* Footer */
+.flex-footer {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  background-color: khaki;
+}
